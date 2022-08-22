@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+      <!--<TargetFrameworks>net40;net45;net462;net472;net48;net5.0-windows;net6.0-windows</TargetFrameworks>-->
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+      <UseWindowsForms>true</UseWindowsForms>
+      <UseWPF>true</UseWPF>
+      <LangVersion>10.0</LangVersion>
+      <Nullable>enable</Nullable>
+      <NullableContextOptions>enable</NullableContextOptions>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\A3DFontAwesome.Material\A3DFontAwesome.Material.csproj" />
+    <ProjectReference Include="..\A3DFontAwesome\A3DFontAwesome.csproj" />
+    <ProjectReference Include="..\A3DIcons.ionicons\A3DIcons.ionicons.csproj" />
+    <ProjectReference Include="..\A3DIcons.LineAwesome\A3DIcons.LineAwesome.csproj" />
+    <ProjectReference Include="..\A3DIcons.RemixIcons\A3DIcons.RemixIcons.csproj" />
+    <ProjectReference Include="..\A3DIcons.ThemifyIcons\A3DIcons.ThemifyIcons.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.Linq" />
+  </ItemGroup>
+
+</Project>

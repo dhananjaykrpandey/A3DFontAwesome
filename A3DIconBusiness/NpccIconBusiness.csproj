@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net40;net45;net462;net472;net48;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <NullableContextOptions>enable</NullableContextOptions>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NpccFontAwesome\NpccFontAwesome.csproj" />
+  </ItemGroup>
+
+</Project>
